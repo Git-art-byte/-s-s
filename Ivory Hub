@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "zenoXD Hub",
+   Name = "Ivory Hub",
    LoadingTitle = "Rayfield Interface Suite",
    LoadingSubtitle = "by Sirius",
    ConfigurationSaving = {
@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"zenoXDbesthub"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"Ivorybesthub"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
@@ -546,64 +546,5 @@ local Button = Tab7:CreateButton({
    Name = "Lightux Hub",
    Callback = function()
    loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
-   end,
-})
-
-local Section4 = Tab7:CreateSection("Blade Ball")
-
-local Button = Tab7:CreateButton({
-   Name = "DenDenZZZ Creation Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/DenDenZYT/DenDenZ-s-Creations/main/DenDenZZZ's%20Creation%20FREE%20v1-4-obfuscated.lua"))()
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "Venox Hub",
-   Callback = function()
-   loadstring(Game:HttpGet("https://raw.githubusercontent.com/Fsploit/venox-blade-ball-v1/main/K-A-T-S-U-S-F-S-P-L-O-I-T-I-S-A-F-U-R-R-Y%20MAIN%20V4"))() 
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "REDz Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/redz9999"))()
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "Blade Bole",
-   Callback = function()
-   loadstring(game:HttpGet("https://paste.gg/p/anonymous/09aa7f4e37454119ac398fa9e5ddedd9/files/b1f5d2d6ab284565ae6c536c3080ef88/raw"))()
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "Bedol Hub(Key System)",
-   Callback = function()
-   _G.UI_Size = 200 -- config ui size
-loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "Nexam Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6af56c1753ac6679dee3acbd1fd952e5.lua"))()
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "Phantom Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/GrandmasterOfLife123/lua/main/releasedbladeball.lua"))()
-   end,
-})
-
-local Button = Tab7:CreateButton({
-   Name = "FFJ Hub",
-   Callback = function()
-   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6af56c1753ac6679dee3acbd1fd952e5.lua"))()
    end,
 })
